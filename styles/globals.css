@@ -18,3 +18,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#main-div {
+  background-image: url("../public/bg-main-desktop.png");
+   height: 100%;
+   width: 100%;
+}

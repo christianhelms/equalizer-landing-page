@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className='h-full w-full p-96' id='main-div'>
       <h1 className='text-red-600'>Hello, World!</h1>
       <p>We make your music sound extraordinary. A system audio equalizer specifically designed for Android and iOS. 
         Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. 
