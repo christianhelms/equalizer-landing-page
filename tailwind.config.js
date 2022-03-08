@@ -4,8 +4,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      
+    extend: {},
+    fontFamily: {
+      'ibm-plex-sans': ['IBM Plex Sans', 'sans-serif'],
     },
   },
   plugins: [],
