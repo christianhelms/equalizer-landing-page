@@ -16,14 +16,18 @@ export default function Home() {
               Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. 
               Control bass, mids, treble, gain control, reverb, and more!</p>
           </div>
-          <div>
+          <div className='ml-96'>
           <img 
-          src="/bg-pattern-1.svg" 
+          id='top-right-image'
+          className='absolute top-0 right-0'
+          src="/bg-pattern-1.svg"
           alt="Background pattern"
-          width={600}
+          width={300}
           height={900}
           />
           </div>
+        </div>
+        <div>
         </div>
       </body>
     </main>

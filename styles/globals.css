@@ -26,3 +26,7 @@ a {
   background-repeat: no-repeat;
   background-position: relative;
 }
+
+#top-right-image {
+  top: -50px;
+}
