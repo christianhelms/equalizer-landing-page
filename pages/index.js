@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Equalizer Landing Page</title>
       </Head>
+      {/* 1st Section */}
       <body className='pt-5 pr-20 pl-20 tb-5' id='main'>
         <div className='flex pb-64'>
           <div className='pr-14'>
@@ -28,7 +29,8 @@ export default function Home() {
           />
           </div>
         </div>
-        <div	className='flex bg-almost-black rounded-xl w-full h-96 pl-10 pr-10'>
+        {/* 2nd Section */}
+        <div className='flex bg-almost-black rounded-xl w-full h-1/4 pl-10 pr-10 mb-24'>
           <div>
             <img
               src="/illustration-app.png"
@@ -58,10 +60,33 @@ export default function Home() {
             </Link>
           </div>
         </div>
+        {/* 3rd Section */}
+        <div className='flex pb-20 content-center items-center'>
+          <p className='pr-24'>equalizer</p>
+          <p>All rights reserved © Equalizer 2021 Have any problems? 
+            Contact us via social media or email us at equalizer@example.com</p>
+          <div className='flex pl-24 content-center items-center'>
+            <img
+                src="/icon-facebook.svg"
+                alt="Facebook"
+                width={30}
+                height={30}
+              />
+            <img
+              src="/icon-instagram.svg"
+              alt="Instagram"
+              width={30}
+              height={30}
+            />
+            <img
+              src="/icon-twitter.svg"
+              alt="Twitter"
+              width={30}
+              height={30}
+            />
+          </div>
+        </div>
       </body>
     </main>
   )
 }
-
-// iOS Download Android Download All rights reserved © Equalizer 2021 Have any problems? 
-// Contact us via social media or email us at equalizer@example.com
