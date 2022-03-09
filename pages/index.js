@@ -9,12 +9,12 @@ export default function Home() {
         <title>Equalizer Landing Page</title>
       </Head>
       {/* 1st Section */}
-      <body className='pt-5 pr-20 pl-20 tb-5' id='main'>
+      <body className='pt-5 tb-5' id='main'>
         <div className='flex pb-64'>
           <div className='pr-14'>
           <p className='text-ibm-plex-sans font-bold text-4xl pb-16'>equalizer</p>
             <h1 className='text-ibm-plex-sans font-bold text-7xl pb-10'>We make your music sound extraordinary.</h1>
-            <p className='text-ibm-plex-sans font-normal text-base'>A system audio equalizer specifically designed for Android and iOS. 
+            <p className='text-ibm-plex-sans font-normal text-base pr-24'>A system audio equalizer specifically designed for Android and iOS. 
               Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. 
               Control bass, mids, treble, gain control, reverb, and more!</p>
           </div>
