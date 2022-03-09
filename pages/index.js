@@ -62,23 +62,26 @@ export default function Home() {
         </div>
         {/* 3rd Section */}
         <div className='flex pb-20 content-center items-center'>
-          <p className='pr-24'>equalizer</p>
-          <p>All rights reserved © Equalizer 2021 Have any problems? 
-            Contact us via social media or email us at equalizer@example.com</p>
-          <div className='flex pl-24 content-center items-center'>
+          <p className='pr-24 text-ibm-plex-sans font-bold text-4xl'>equalizer</p>
+          <p className='text-ibm-plex-sans font-normal text-base'>All rights reserved © Equalizer 2021 Have any problems? 
+            Contact us via social media or email us at <strong>equalizer@example.com</strong></p>
+          <div className='flex ml-96 content-center items-center'>
             <img
+                className='m-2'
                 src="/icon-facebook.svg"
                 alt="Facebook"
                 width={30}
                 height={30}
               />
             <img
+              className='m-2'
               src="/icon-instagram.svg"
               alt="Instagram"
               width={30}
               height={30}
             />
             <img
+              className='m-2'
               src="/icon-twitter.svg"
               alt="Twitter"
               width={30}
