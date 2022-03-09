@@ -33,16 +33,16 @@ export default function Home() {
             <img
               src="/illustration-app.png"
               alt="Background pattern"
-              width={300}
-              height={900}
+              width={600}
+              height={1800}
             />
           </div>
           <div>
             <img
               src="/bg-pattern-2.svg"
               alt="Background pattern"
-              width={300}
-              height={900}
+              width={600}
+              height={1800}
             />
           </div>
           <div className='bg-lava rounded-xl p-10'>
