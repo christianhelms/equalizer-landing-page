@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       {/* 1st Section */}
       <body className='pt-5' id='main'>
-        <div className='flex pb-36 pl-24 pr-24'>
+        <div className='flex pb-36   pl-24 pr-24'>
           <div className='pr-14'>
           <p className='text-ibm-plex-sans font-bold text-4xl pb-16'>equalizer</p>
             <h1 className='text-ibm-plex-sans font-bold text-7xl pb-10'>We make your music sound extraordinary.</h1>
@@ -63,9 +63,9 @@ export default function Home() {
           </div>
         </div>
         {/* 3rd Section */}
-        <div className='flex pb-20 content-center items-center'>
+        <div className='flex pb-20 content-center items-center pl-24 pr-24'>
           <p className='pr-24 text-ibm-plex-sans font-bold text-4xl'>equalizer</p>
-          <p className='text-ibm-plex-sans font-normal text-base'>All rights reserved © Equalizer 2021 Have any problems? 
+          <p className='text-ibm-plex-sans font-normal text-base pr-36'>All rights reserved © Equalizer 2021 Have any problems? 
             Contact us via social media or email us at <strong>equalizer@example.com</strong></p>
           <div className='flex ml-96 content-center items-center'>
             <img
