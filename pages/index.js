@@ -9,8 +9,8 @@ export default function Home() {
         <title>Equalizer Landing Page</title>
       </Head>
       {/* 1st Section */}
-      <body className='pt-5 tb-5' id='main'>
-        <div className='flex pb-64'>
+      <body className='pt-5' id='main'>
+        <div className='flex pb-36 pl-24 pr-24'>
           <div className='pr-14'>
           <p className='text-ibm-plex-sans font-bold text-4xl pb-16'>equalizer</p>
             <h1 className='text-ibm-plex-sans font-bold text-7xl pb-10'>We make your music sound extraordinary.</h1>
@@ -30,34 +30,36 @@ export default function Home() {
           </div>
         </div>
         {/* 2nd Section */}
-        <div className='flex bg-almost-black rounded-xl w-full h-1/4 pl-10 pr-10 mb-24'>
-          <div>
-            <img
-              src="/illustration-app.png"
-              alt="Background pattern"
-              width={600}
-              height={1800}
-            />
-          </div>
-          <div>
-            <img
-              src="/bg-pattern-2.svg"
-              alt="Background pattern"
-              width={600}
-              height={1800}
-            />
-          </div>
-          <div className='bg-lava rounded-xl p-10'>
-            <p className='text-almost-white'>Premium EQ</p>
-            <p className='text-almost-white'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. 
-              Take your listening experience to a whole new level and access all our incredible features!</p>
-            <p className='text-almost-white'>$4 /month</p>
-            <Link href="#">
-              <p className='text-almost-white'>iOS Downlaod</p>
-            </Link>
-            <Link href="#">
-              <p>Android Download</p>
-            </Link>
+        <div className='p-24'>
+          <div className='flex bg-almost-black rounded-xl w-full h-1/4 pl-10 pr-10 mb-24'>
+            <div>
+              <img
+                src="/illustration-app.png"
+                alt="Background pattern"
+                width={600}
+                height={1800}
+              />
+            </div>
+            <div>
+              <img
+                src="/bg-pattern-2.svg"
+                alt="Background pattern"
+                width={600}
+                height={1800}
+              />
+            </div>
+            <div className='bg-lava rounded-xl p-10' id='lava-box'>
+              <p className='text-almost-white'>Premium EQ</p>
+              <p className='text-almost-white'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. 
+                Take your listening experience to a whole new level and access all our incredible features!</p>
+              <p className='text-almost-white'>$4 /month</p>
+              <Link href="#">
+                <p className='text-almost-white'>iOS Downlaod</p>
+              </Link>
+              <Link href="#">
+                <p>Android Download</p>
+              </Link>
+            </div>
           </div>
         </div>
         {/* 3rd Section */}

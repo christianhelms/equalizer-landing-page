@@ -30,3 +30,8 @@ a {
 #top-right-image {
   top: -50px;
 }
+
+#lava-box {
+  height: 150px;
+  width: 100;
+}
